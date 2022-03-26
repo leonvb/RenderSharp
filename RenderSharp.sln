@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderSharp", "RenderSharp\RenderSharp.csproj", "{5482000B-B92E-4DA3-9265-228A9A313EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testbed", "Testbed\Testbed.csproj", "{60E5838C-F140-4EE5-A279-F9A034BD1B6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GLFW.NET", "GLFW.NET\GLFW.NET.csproj", "{8161692A-D190-46EA-8835-4410AFDD9AEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5482000B-B92E-4DA3-9265-228A9A313EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5482000B-B92E-4DA3-9265-228A9A313EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5482000B-B92E-4DA3-9265-228A9A313EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5482000B-B92E-4DA3-9265-228A9A313EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E5838C-F140-4EE5-A279-F9A034BD1B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E5838C-F140-4EE5-A279-F9A034BD1B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E5838C-F140-4EE5-A279-F9A034BD1B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E5838C-F140-4EE5-A279-F9A034BD1B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8161692A-D190-46EA-8835-4410AFDD9AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8161692A-D190-46EA-8835-4410AFDD9AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8161692A-D190-46EA-8835-4410AFDD9AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8161692A-D190-46EA-8835-4410AFDD9AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84FAB9CB-962D-47C8-B29C-57E4670FFF2B}
+	EndGlobalSection
+EndGlobal

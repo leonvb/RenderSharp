@@ -1,0 +1,10 @@
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netstandard2.1\RenderSharp.deps.json
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netstandard2.1\RenderSharp.dll
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netstandard2.1\RenderSharp.pdb
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\obj\Debug\netstandard2.1\RenderSharp.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\obj\Debug\netstandard2.1\RenderSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\obj\Debug\netstandard2.1\RenderSharp.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\obj\Debug\netstandard2.1\RenderSharp.AssemblyInfo.cs
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\obj\Debug\netstandard2.1\RenderSharp.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\obj\Debug\netstandard2.1\RenderSharp.dll
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\obj\Debug\netstandard2.1\RenderSharp.pdb

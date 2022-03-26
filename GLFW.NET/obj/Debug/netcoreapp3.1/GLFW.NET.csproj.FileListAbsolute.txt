@@ -1,0 +1,13 @@
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\bin\Debug\netcoreapp3.1\GLFW.NET.deps.json
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\bin\Debug\netcoreapp3.1\GLFW.NET.dll
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\bin\Debug\netcoreapp3.1\GLFW.NET.pdb
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\bin\Debug\netcoreapp3.1\GLFW.NET.xml
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\obj\Debug\netcoreapp3.1\GLFW.NET.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\obj\Debug\netcoreapp3.1\GLFW.Strings.resources
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\obj\Debug\netcoreapp3.1\GLFW.NET.csproj.GenerateResource.cache
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\obj\Debug\netcoreapp3.1\GLFW.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\obj\Debug\netcoreapp3.1\GLFW.NET.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\obj\Debug\netcoreapp3.1\GLFW.NET.AssemblyInfo.cs
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\obj\Debug\netcoreapp3.1\GLFW.NET.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\obj\Debug\netcoreapp3.1\GLFW.NET.dll
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\obj\Debug\netcoreapp3.1\GLFW.NET.pdb

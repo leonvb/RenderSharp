@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>glfw-net</id>
+    <version>3.3.1</version>
+    <title>glfw-net</title>
+    <authors>Eric Freed</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/ForeverZer0/glfw-net</projectUrl>
+    <iconUrl>https://github.com/ForeverZer0/glfw-net/raw/master/favicons.png</iconUrl>
+    <description>Complete, cross-platform, managed wrapper around the GLFW library for creating native windows with an OpenGL context.</description>
+    <releaseNotes>- Implemented new GLFW 3.3 features
+- Large refactorings
+- Code improvements</releaseNotes>
+    <copyright>Copyright © Eric Freed 2018</copyright>
+    <tags>GLFW OpenGL OpenGLES ES C# F# VB Csharp CS Windows Mono Linux Mac OSX Context NET Standard Core Framework Game Native Form Cross Platform Unix netcore netstandard dotnet winform</tags>
+    <repository type="GitHub" url="https://github.com/ForeverZer0/glfw-net" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\bin\Debug\netcoreapp3.1\GLFW.NET.dll" target="lib\netcoreapp3.1\GLFW.NET.dll" />
+    <file src="C:\Users\User\Documents\Visual Studio Projects\RenderSharp\GLFW.NET\bin\Debug\netcoreapp3.1\GLFW.NET.xml" target="lib\netcoreapp3.1\GLFW.NET.xml" />
+  </files>
+</package>
