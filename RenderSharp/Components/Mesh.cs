@@ -1,10 +1,9 @@
 ﻿using GlmSharp;
 using OpenGL;
-using RenderSharp.ECS;
 
-namespace RenderSharp.Components
+namespace RenderSharp
 {
-    public class MeshComponent : Component
+    public class Mesh
     {
         public float[] Vertices { get; set; }
         public uint[] Indices { get; set; }
@@ -14,9 +13,13 @@ namespace RenderSharp.Components
         public uint VAO; // Vertex Array Object
         public uint EBO; // Element Buffer Object
 
-        public static MeshComponent Cube()
+        public Transform Transform;
+
+        public static Mesh Cube()
         {
-            MeshComponent mesh = new MeshComponent();
+            Mesh mesh = new Mesh();
+
+            mesh.Transform = new Transform(new vec3(0.0f, 0.0f, 0.0f), new vec3(0.0f, 0.0f, 0.0f), new vec3(1.0f, 1.0f, 1.0f));
 
             mesh.Vertices = new float[] {
                 -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,

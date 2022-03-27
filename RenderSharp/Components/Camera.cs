@@ -1,15 +1,14 @@
 ﻿using GlmSharp;
-using RenderSharp.ECS;
 
-namespace RenderSharp.Components
+namespace RenderSharp
 {
-    public class CameraComponent : Component
+    public class Camera
     {
         private float _pitch;
         private float _fov = 45.0f;
 
-        private vec3 _position;
 
+        public vec3 Position;
         public vec3 Front { get; set; }
         public vec3 Up { get; set; }
         public vec3 Right { get; set; }
@@ -50,24 +49,18 @@ namespace RenderSharp.Components
         public mat4 view_matrix { get; set; }
         public mat4 projection_matrix { get; set; }
 
-        public CameraComponent()
+        public Camera()
         {
             this.projection_matrix = mat4.Perspective(glm.Radians(FOV), 800.0f / 600.0f, 0.1f, 100.0f);
 
             this.WorldUp = vec3.UnitY;
 
-            TransformComponent transform = this.Entity.GetComponent<TransformComponent>().Transform;
-            this._position = transform.Position;
+            this.Position = new vec3(0.0f, 0.0f, 3.0f);
 
             Update();
         }
 
-        public override void Start()
-        {
-            base.Start();
-        }
-
-        public override void Update()
+        public void Update()
         {
             this.projection_matrix = mat4.Perspective(glm.Radians(FOV), 800.0f / 600.0f, 0.1f, 100.0f);
 
@@ -81,12 +74,7 @@ namespace RenderSharp.Components
             this.Up = glm.Normalized(glm.Cross(this.Right, this.Front));
 
 
-            this.view_matrix = mat4.LookAt(this._position, this._position + this.Front, WorldUp);
-        }
-
-        public override void FixedUpdate()
-        {
-            base.FixedUpdate();
+            this.view_matrix = mat4.LookAt(this.Position, this.Position + this.Front, WorldUp);
         }
     }
 }

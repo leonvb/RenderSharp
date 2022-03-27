@@ -1,9 +1,8 @@
 ﻿using GlmSharp;
-using RenderSharp.ECS;
 
-namespace RenderSharp.Components
+namespace RenderSharp
 {
-    public class TransformComponent : Component
+    public class Transform
     {
         public vec3 Position;
         public vec3 Rotation;
@@ -15,14 +14,14 @@ namespace RenderSharp.Components
         
         public mat4 model_matrix { get { return this.mat_scale * this.mat_rotation * this.mat_position; } }
 
-        public TransformComponent()
+        public Transform()
         {
             this.Position = new vec3(0, 0, 0);
             this.Rotation = new vec3(0, 0, 0);
             this.Scale = new vec3(1, 1, 1);
         }
 
-        public TransformComponent(vec3 Position, vec3 Rotation, vec3 Scale)
+        public Transform(vec3 Position, vec3 Rotation, vec3 Scale)
         {
             this.Position = Position;
             this.Rotation = Rotation;
