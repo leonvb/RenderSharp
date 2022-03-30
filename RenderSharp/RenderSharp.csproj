@@ -14,8 +14,9 @@
 
   <ItemGroup>
     <Folder Include="GLFW\" />
-    <Folder Include="Textures\" />
-    <Folder Include="Shaders\" />
+    <Folder Include="PhysicsEngine\" />
+    <Folder Include="Resources\Textures\" />
+    <Folder Include="Resources\Shaders\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +25,27 @@
 
   <ItemGroup>
     <None Update="GLFW\glfw3.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Shaders\Texture_FragmentShader.glsl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Shaders\Texture_VertexShader.glsl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Shaders\VertColor_FragmentShader.glsl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Shaders\VertColor_VertexShader.glsl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Textures\awesomeface.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Textures\container.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Textures\wall.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

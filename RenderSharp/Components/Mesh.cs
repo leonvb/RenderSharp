@@ -1,9 +1,10 @@
 ﻿using GlmSharp;
 using OpenGL;
+using RenderSharp.EntityComponentSystem;
 
 namespace RenderSharp
 {
-    public class Mesh
+    public class Mesh : Component
     {
         public float[] Vertices { get; set; }
         public uint[] Indices { get; set; }
@@ -19,7 +20,7 @@ namespace RenderSharp
         {
             Mesh mesh = new Mesh();
 
-            mesh.Transform = new Transform(new vec3(0.0f, 0.0f, 0.0f), new vec3(0.0f, 0.0f, 0.0f), new vec3(1.0f, 1.0f, 1.0f));
+            //mesh.Transform = new Transform(new vec3(0.0f, 0.0f, 0.0f), new vec3(0.0f, 0.0f, 0.0f), new vec3(1.0f, 1.0f, 1.0f));
 
             mesh.Vertices = new float[] {
                 -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
@@ -138,6 +139,11 @@ namespace RenderSharp
                     GL.glBufferData(GL.GL_ELEMENT_ARRAY_BUFFER, this.Indices.Length * sizeof(uint), indexPointer, GL.GL_STATIC_DRAW);
                 }
             }
+        }
+
+        public override void Start()
+        {
+            this.Transform = this.Entity.WorldTransform;
         }
     }
 }

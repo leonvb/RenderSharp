@@ -16,8 +16,8 @@ namespace RenderSharp
 
         public Shader()
         {
-            string vertexShaderSource = ReadShaderFile(@"C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\Shaders\Texture_VertexShader.glsl");
-            string fragmentShaderSource = ReadShaderFile(@"C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\Shaders\Texture_FragmentShader.glsl");
+            string vertexShaderSource = ReadShaderFile(@"Resources\Shaders\Texture_VertexShader.glsl");
+            string fragmentShaderSource = ReadShaderFile(@"Resources\Shaders\Texture_FragmentShader.glsl");
 
             // Generate and Bind Shaders
             VertexShaderID = CompileShader(GL.GL_VERTEX_SHADER, vertexShaderSource);

@@ -22,3 +22,10 @@ C:\Users\User\Documents\Visual Studio Projects\RenderSharp\Testbed\bin\Debug\net
 C:\Users\User\Documents\Visual Studio Projects\RenderSharp\Testbed\bin\Debug\net6.0\GLFW.NET.xml
 C:\Users\User\Documents\Visual Studio Projects\RenderSharp\Testbed\bin\Debug\net6.0\GLFW\glfw3.dll
 C:\Users\User\Documents\Visual Studio Projects\RenderSharp\Testbed\bin\Debug\net6.0\GlmSharp.dll
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\Testbed\bin\Debug\net6.0\Resources\Shaders\Texture_FragmentShader.glsl
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\Testbed\bin\Debug\net6.0\Resources\Shaders\Texture_VertexShader.glsl
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\Testbed\bin\Debug\net6.0\Resources\Shaders\VertColor_FragmentShader.glsl
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\Testbed\bin\Debug\net6.0\Resources\Shaders\VertColor_VertexShader.glsl
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\Testbed\bin\Debug\net6.0\Resources\Textures\awesomeface.png
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\Testbed\bin\Debug\net6.0\Resources\Textures\container.jpg
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\Testbed\bin\Debug\net6.0\Resources\Textures\wall.jpg

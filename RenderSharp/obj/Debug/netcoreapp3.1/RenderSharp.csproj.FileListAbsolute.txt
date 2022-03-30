@@ -13,3 +13,10 @@ C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug
 C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netcoreapp3.1\GLFW.NET.xml
 C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\obj\Debug\netcoreapp3.1\RenderSharp.csproj.CopyComplete
 C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netcoreapp3.1\GLFW\glfw3.dll
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netcoreapp3.1\Resources\Shaders\Texture_FragmentShader.glsl
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netcoreapp3.1\Resources\Shaders\Texture_VertexShader.glsl
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netcoreapp3.1\Resources\Shaders\VertColor_FragmentShader.glsl
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netcoreapp3.1\Resources\Shaders\VertColor_VertexShader.glsl
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netcoreapp3.1\Resources\Textures\awesomeface.png
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netcoreapp3.1\Resources\Textures\container.jpg
+C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\bin\Debug\netcoreapp3.1\Resources\Textures\wall.jpg

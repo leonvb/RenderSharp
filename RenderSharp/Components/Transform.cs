@@ -12,7 +12,12 @@ namespace RenderSharp
         mat4 mat_rotation { get { return mat4.RotateY(this.Rotation.y) * mat4.RotateX(this.Rotation.x) *  mat4.RotateZ(this.Rotation.z); } }
         mat4 mat_scale { get { return mat4.Scale(this.Scale.x, this.Scale.y, this.Scale.z); } }
         
-        public mat4 model_matrix { get { return this.mat_scale * this.mat_rotation * this.mat_position; } }
+        public mat4 modelMatrix { 
+            get 
+            { 
+                return this.mat_scale * this.mat_rotation * this.mat_position; 
+            }
+        } // Model Matrix
 
         public Transform()
         {

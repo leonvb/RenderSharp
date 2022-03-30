@@ -42,8 +42,8 @@ namespace RenderSharp
 
             #region Load Textures
 
-            texture0 = new Texture(@"C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\Textures\container.jpg");
-            texture1 = new Texture(@"C:\Users\User\Documents\Visual Studio Projects\RenderSharp\RenderSharp\Textures\awesomeface.png");
+            texture0 = new Texture(@"Resources\Textures\container.jpg");
+            texture1 = new Texture(@"Resources\Textures\awesomeface.png");
             shader.Use();
             shader.SetInt("texture0", 0);
             shader.SetInt("texture1", 1);
@@ -149,7 +149,7 @@ namespace RenderSharp
             texture0.Use(GL.GL_TEXTURE0);
             texture1.Use(GL.GL_TEXTURE1);
 
-            shader.SetMatrix4("model_matrix", mesh.Transform.model_matrix);
+            shader.SetMatrix4("model_matrix", mesh.Transform.modelMatrix);
             shader.SetMatrix4("view_matrix", camera.view_matrix);
             shader.SetMatrix4("projection_matrix", camera.projection_matrix);
 
